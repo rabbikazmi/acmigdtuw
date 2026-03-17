@@ -10,6 +10,7 @@ import AboutSection      from './components/sections/AboutSection'
 import EventsSection     from './components/sections/EventsSection'
 import ProjectsSection   from './components/sections/ProjectsSection'
 import TeamSection       from './components/sections/TeamSection'
+import AlumniSection     from './components/sections/AlumniSection'
 import CTASection        from './components/sections/CTASection'
 import CustomCursor      from './components/ui/CustomCursor'
 import ScrollProgress    from './components/ui/ScrollProgress'
@@ -57,12 +58,13 @@ export default function App() {
 
       {/* Scrollable HTML content on top */}
       <main style={{ position: 'relative', zIndex: 1 }}>
-        <HeroSection     />
-        <AboutSection    />
-        {/* <EventsSection   /> */}
+        <HeroSection />
+        <AboutSection />
+        {/* <EventsSection /> */}
         {/* <ProjectsSection /> */}
-        <TeamSection     />
-        <CTASection      />
+        <TeamSection />
+        <AlumniSection />
+        <CTASection />
       </main>
     </div>
   )

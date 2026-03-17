@@ -6,6 +6,7 @@ const NAV_LINKS = [
   { label: 'Events',   href: '#events'   },
   { label: 'Projects', href: '#projects' },
   { label: 'Team',     href: '#team'     },
+  { label: 'Alumni',   href: '#alumni'   },
 ]
 
 export default function Navbar() {
